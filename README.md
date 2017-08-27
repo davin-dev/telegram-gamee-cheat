@@ -1,5 +1,8 @@
 # telegram-gamee-cheat
+
 cheat every telegram @gamee game
+
+<b>Update #1 : Support for ibasket and AngryPiano added!</b>
 
 
 
