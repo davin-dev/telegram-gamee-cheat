@@ -2,13 +2,13 @@ var url = window.location.pathname,
         timestamp = (new Date).getTime(),
         dataId = $("#dataId").data(),
         hash = CryptoJS.AES.encrypt(JSON.stringify({
-            score: score,  
+            score: 999999999,  
             timestamp: timestamp
         }), dataId.id, {
             format: CryptoJSAesJson
         }).toString(),
         sData = {
-            score: score,
+            score: 999999999,
             url: url,
             play_time: gameeUI.playTime,
             hash: hash
