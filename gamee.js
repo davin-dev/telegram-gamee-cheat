@@ -16,7 +16,7 @@ var a = window.location.pathname,
                 username: t,
                 anonymous_id: gameeUI.anonymous_id
             };
-        if (isFacebook()) {
+        if (isFacebook()) {                     //is not important you can delete it..
             var r = FacebookUserData.getUserData();
             s.app_scoped_user_id = r.app_scoped_user_id, s.user_id = r.user_id
         }
